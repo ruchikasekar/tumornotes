@@ -2,7 +2,7 @@ import pandas as pd
 import sqlite3
 import json
 
-with open('tumor_notes (2).json', encoding='utf-8') as f:
+with open('tumor_notes (2) (1).json', encoding='utf-8') as f:
     data = json.load(f)
 
 df = pd.json_normalize(data)
